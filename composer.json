@@ -1,5 +1,5 @@
 {
-  "name": "maksym/log-lib",
+  "name": "maksym/sendmail-lib",
   "type": "library",
   "description": "sendmail-package for small framework",
   "keywords": [
