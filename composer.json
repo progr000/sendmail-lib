@@ -1,0 +1,40 @@
+{
+  "name": "maksym/log-lib",
+  "type": "library",
+  "description": "sendmail-package for small framework",
+  "keywords": [
+    "sendmail",
+    "mailer",
+    "mail",
+    "lib"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksym Haivoronskyi",
+      "email": "maksym.haivoronskyi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-mbstring": "*",
+    "ext-fileinfo": "*",
+    "ext-openssl": "*",
+    "ext-iconv": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maksym\\Sendmail\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
